@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validations will provide a message for maximum length 1`] = `"At most 6 characters are allowed."`;
+
+exports[`validations will provide a message for maximum length 2`] = `"At most 1 character is allowed."`;
+
+exports[`validations will provide a message for minimum length 1`] = `"At least 5 characters are required."`;
+
+exports[`validations will provide a message for minimum length 2`] = `"At least 1 character is required."`;
+
+exports[`validations will show a message when a non-string is passed to lower 1`] = `"Only strings can be made lowercase."`;
+
+exports[`validations will show a message when a non-string is passed to lower 2`] = `"Only strings can be made lowercase."`;
+
+exports[`validations will show a message when a non-string is passed to upper 1`] = `"Only strings can be made uppercase."`;
+
+exports[`validations will show a message when a non-string is passed to upper 2`] = `"Only strings can be made uppercase."`;

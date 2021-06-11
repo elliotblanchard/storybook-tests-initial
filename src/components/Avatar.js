@@ -8,7 +8,7 @@ export default function AvatarItem({ variant, src, alt }) {
     );
   }
 
-Avatar.propTypes = {
+AvatarItem.propTypes = {
     alt: PropTypes.string.isRequired,
     src: PropTypes.string,
     variant: PropTypes.oneOf(['circle', 'square']),
